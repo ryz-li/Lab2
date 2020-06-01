@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#191616">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:background="#E91E63"
+        android:gravity="center"
+        android:text="@string/red"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:background="#FFEB3B"
+        android:gravity="center"
+        android:text="@string/yellow"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:background="#EA80FC"
+        android:gravity="center"
+        android:text="@string/violet"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="100dp"
+        android:background="#2196F3"
+        android:gravity="center"
+        android:text="@string/bule"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/text7"
+        app:layout_constraintEnd_toStartOf="@+id/text6"
+        app:layout_constraintStart_toEndOf="@+id/text4" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginBottom="100dp"
+        android:background="#4CAF50"
+        android:gravity="center"
+        android:text="@string/green"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/text7"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="100dp"
+        android:background="#673AB7"
+        android:gravity="center"
+        android:text="@string/indigo"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/text7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="310dp"
+        android:layout_marginEnd="210dp"
+        android:background="#FF9800"
+        android:gravity="center"
+        android:text="@string/orange"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/text3"
+        app:layout_constraintStart_toStartOf="@+id/text1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

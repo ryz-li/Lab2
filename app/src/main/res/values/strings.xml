@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Lab2</string>
+    <string name="one_one">One,One</string>
+    <string name="one_tow">One,Tow</string>
+    <string name="one_three">One,Three</string>
+    <string name="one_four">One,Four</string>
+    <string name="tow_one">One,One</string>
+    <string name="tow_tow">One,Tow</string>
+    <string name="tow_three">One,Three</string>
+    <string name="tow_four">One,Four</string>
+    <string name="three_one">One,One</string>
+    <string name="three_tow">One,Tow</string>
+    <string name="three_three">One,Three</string>
+    <string name="three_four">One,Four</string>
+    <string name="four_one">One,One</string>
+    <string name="four_tow">One,Tow</string>
+    <string name="four_three">One,Three</string>
+    <string name="four_four">One,Four</string>
+    <string name="red">RED</string>
+    <string name="orange">ORANGE</string>
+    <string name="yellow">YELLOW</string>
+    <string name="violet">VIOLET</string>
+    <string name="bule">BULE</string>
+    <string name="green">GREEN</string>
+    <string name="indigo">INDIGO</string>
+    <string name="open">Open...</string>
+    <string name="save_as">Save AS...</string>
+    <string name="ctrl_shift_s">Ctrl-Shift-S</string>
+    <string name="ctrl_o">Ctrl-O</string>
+    <string name="ctrl_s">Ctrl-S</string>
+    <string name="x">X</string>
+    <string name="aimport">Import...</string>
+    <string name="save">Save...</string>
+    <string name="aexport">Export...</string>
+    <string name="ctrl_e">Ctrl-E</string>
+    <string name="qult">  Qult</string>
+</resources>
